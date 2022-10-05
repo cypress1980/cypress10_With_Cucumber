@@ -1,0 +1,29 @@
+{
+  "name": "cypress10_with_cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean-html": "rm -rf ./html && rm -rf ./output",
+    "after:tests": "node cucumber-html-report.js",
+    "cypress-test": "npm run clean-html;yarn cypress run;after:tests"
+  },
+  "author": "Kailash Pathak",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.9.0"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "multiple-cucumber-html-reporter": "^3.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true,
+      "formatter": "./cucumber-json-formatter"
+    }
+  }
+}
