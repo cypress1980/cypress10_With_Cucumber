@@ -1,0 +1,221 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the Website",
+            "result": {
+              "duration": 1961000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "home-page;i-want-to-verify-content-in-home-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "I want to verify content in Home Page",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Validate the menus in home page",
+            "result": {
+              "duration": 163000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "menu_name"
+                ]
+              },
+              {
+                "cells": [
+                  "Home"
+                ]
+              },
+              {
+                "cells": [
+                  "Blogs"
+                ]
+              },
+              {
+                "cells": [
+                  "Contact Us"
+                ]
+              }
+            ]
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the Website",
+            "result": {
+              "duration": 1080000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "home-page;i-want-to-validate-title-of-home-page",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "I want to validate title of home page",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Validate the title after login",
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "title"
+                ]
+              },
+              {
+                "cells": [
+                  "About Us - QAAutomationLabs"
+                ]
+              }
+            ]
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "home-page",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Home Page",
+    "uri": "cypress/e2e/QAAutomationLabs/Tests/HomeTest.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the Website",
+            "result": {
+              "duration": 1092000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "search-product;i-want-to-serach-the-product-in-home-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "I want to serach the product in home page",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Search the blog",
+            "result": {
+              "duration": 4501000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "blog"
+                ]
+              },
+              {
+                "cells": [
+                  "Cypress"
+                ]
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Verify correct blog name searched",
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "searchValue"
+                ]
+              },
+              {
+                "cells": [
+                  "Cypress"
+                ]
+              }
+            ]
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-product",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Search Product",
+    "uri": "cypress/e2e/QAAutomationLabs/Tests/SearchProductTest.feature"
+  }
+]
