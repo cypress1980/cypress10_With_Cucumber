@@ -13,7 +13,7 @@
             "line": 4,
             "name": "I navigate to the Website",
             "result": {
-              "duration": 1961000000,
+              "duration": 1794000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
             "line": 7,
             "name": "Validate the menus in home page",
             "result": {
-              "duration": 163000000,
+              "duration": 154000000,
               "status": "passed"
             },
             "match": {
@@ -78,7 +78,7 @@
             "line": 4,
             "name": "I navigate to the Website",
             "result": {
-              "duration": 1080000000,
+              "duration": 2058000000,
               "status": "passed"
             },
             "match": {
@@ -100,7 +100,7 @@
             "line": 14,
             "name": "Validate the title after login",
             "result": {
-              "duration": 82000000,
+              "duration": 128000000,
               "status": "passed"
             },
             "match": {
@@ -143,7 +143,7 @@
             "line": 4,
             "name": "I navigate to the Website",
             "result": {
-              "duration": 1092000000,
+              "duration": 12443000000,
               "status": "passed"
             },
             "match": {
@@ -165,7 +165,7 @@
             "line": 7,
             "name": "Search the blog",
             "result": {
-              "duration": 4501000000,
+              "duration": 15225000000,
               "status": "passed"
             },
             "match": {
@@ -189,7 +189,7 @@
             "line": 10,
             "name": "Verify correct blog name searched",
             "result": {
-              "duration": 47000000,
+              "duration": 71000000,
               "status": "passed"
             },
             "match": {

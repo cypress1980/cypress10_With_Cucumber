@@ -14,6 +14,6 @@ Then("Validate the menus in home page", (datatable) => {
 });
 Then("Validate the title after login", (datatable) => {
   datatable.hashes().forEach((element) => {
-    homePage.verifyPageTitle(element.title2);
+    homePage.verifyPageTitle(element.title);
   });
 });
