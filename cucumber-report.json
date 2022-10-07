@@ -13,7 +13,7 @@
             "line": 4,
             "name": "I navigate to the Website",
             "result": {
-              "duration": 2164000000,
+              "duration": 1855000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
             "line": 7,
             "name": "Validate the menus in home page",
             "result": {
-              "duration": 207000000,
+              "duration": 135000000,
               "status": "passed"
             },
             "match": {
@@ -78,7 +78,7 @@
             "line": 4,
             "name": "I navigate to the Website",
             "result": {
-              "duration": 1943000000,
+              "duration": 2049000000,
               "status": "passed"
             },
             "match": {
@@ -100,7 +100,7 @@
             "line": 14,
             "name": "Validate the title after login",
             "result": {
-              "duration": 80000000,
+              "duration": 91000000,
               "status": "passed"
             },
             "match": {
@@ -114,7 +114,7 @@
               },
               {
                 "cells": [
-                  "About Us - QAAutomationLabs"
+                  "About Us - QAAutomationLabs11"
                 ]
               }
             ]
@@ -143,7 +143,7 @@
             "line": 4,
             "name": "I navigate to the Website",
             "result": {
-              "duration": 1291000000,
+              "duration": 1233000000,
               "status": "passed"
             },
             "match": {
@@ -165,7 +165,7 @@
             "line": 7,
             "name": "Search the blog",
             "result": {
-              "duration": 2941000000,
+              "duration": 3141000000,
               "status": "passed"
             },
             "match": {
@@ -189,7 +189,7 @@
             "line": 10,
             "name": "Verify correct blog name searched",
             "result": {
-              "duration": 52000000,
+              "duration": 165000000,
               "status": "passed"
             },
             "match": {

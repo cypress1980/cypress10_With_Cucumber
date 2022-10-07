@@ -12,6 +12,6 @@ Feature:  Home Page
             | Contact Us |
     Scenario: I want to validate title of home page
         Then Validate the title after login
-            | title                         |
-            | About Us - QAAutomationLabs11 |
+            | title                        |
+            | About Us - QAAutomationLabs1 |
 

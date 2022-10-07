@@ -8,8 +8,8 @@ class HomePage {
     cy.contains(menus);
     return this;
   }
-  verifyPageTitle() {
-    return cy.title().should("eq", "About Us - QAAutomationLabs");
+  verifyPageTitle(title) {
+    return cy.title().should("eq", title);
   }
 }
 const homepage = new HomePage();
